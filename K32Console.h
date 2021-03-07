@@ -89,9 +89,7 @@ typedef struct _K32OBJ_CONSOLE98 {
 } K32OBJ_CONSOLE98, *PK32OBJ_CONSOLE98;
 
 typedef struct _K32OBJ_CONSOLEME {
-	BYTE dwType;
-	BYTE dwUnknown;
-	WORD dwRefCnt;
+	K32ObjectHeaderME header;
 	PK32OBJ_EVENTME pSomeEvent;
 	PK32OBJ_SCREEN_BUFFERME pScreenBuffer;
 	DWORD un1;

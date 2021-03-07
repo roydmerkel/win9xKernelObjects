@@ -56,10 +56,8 @@ typedef struct _K32OBJ_SCREEN_BUFFER98 {
 } K32OBJ_SCREEN_BUFFER98, *PK32OBJ_SCREEN_BUFFER98;
 
 typedef struct _K32OBJ_SCREEN_BUFFERME {
-	BYTE dwType;
-	BYTE dwUnknown;
-	WORD dwRefCnt;
-	DWORD unk1;
+	K32ObjectHeaderME header;
+	COORD dwSize;
 	DWORD unk2;
 	DWORD unk3;
 	DWORD unk4;
