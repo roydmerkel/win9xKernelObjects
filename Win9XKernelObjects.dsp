@@ -64,7 +64,7 @@ LIB32=link.exe -lib
 # PROP Intermediate_Dir "Debug"
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
-# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /YX /FD /GZ /c
+# ADD CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR /YX /FD /GZ /c
 # ADD BASE RSC /l 0x409 /d "_DEBUG"
 # ADD RSC /l 0x409 /d "_DEBUG"
 BSC32=bscmake.exe
@@ -87,6 +87,10 @@ LIB32=link.exe -lib
 # Begin Group "Header Files"
 
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\K32Console.h
+# End Source File
 # Begin Source File
 
 SOURCE=.\K32CriticalSection.h
@@ -118,6 +122,10 @@ SOURCE=.\K32ObjectBase.h
 # Begin Source File
 
 SOURCE=.\k32objtypes.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\K32ScreenBuffer.h
 # End Source File
 # Begin Source File
 
