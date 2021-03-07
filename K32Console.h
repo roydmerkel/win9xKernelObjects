@@ -15,7 +15,7 @@
 #pragma pack(1) 
 typedef struct _K32OBJ_CONSOLE95 {
 	K32ObjectHeader95 header;
-	PDB95 *pPdb;
+	DWORD reserved;
 	PK32OBJ_EVENT95 pSomeEvent;
 	PK32OBJ_SCREEN_BUFFER95 pScreenBuffer;
 	DWORD un1;
@@ -46,7 +46,7 @@ typedef struct _K32OBJ_CONSOLE95 {
 	DWORD un16;
 	DWORD un17;
 	DWORD un18;
-	PDB95 * pPdb2;
+	PDB95 * pPdb;
 	BYTE unk20[0x30C];
 	PK32OBJ_EVENT95 pSomeOtherEvent;
 } K32OBJ_CONSOLE95, *PK32OBJ_CONSOLE95;

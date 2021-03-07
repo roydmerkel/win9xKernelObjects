@@ -12,7 +12,7 @@
 #pragma pack(1) 
 typedef struct _K32OBJ_SCREEN_BUFFER95 {
 	K32ObjectHeader95 header;
-	PDB95 *pPdb;
+	DWORD reserved;
 	COORD dwSize;
 	DWORD unk2;
 	DWORD unk3;
