@@ -97,6 +97,10 @@ SOURCE=.\K32CriticalSection.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\K32Device.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\K32Event.h
 # End Source File
 # Begin Source File
@@ -106,6 +110,10 @@ SOURCE=.\K32FileChangeObject.h
 # Begin Source File
 
 SOURCE=.\K32FileObject.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\K32MailSlot.h
 # End Source File
 # Begin Source File
 
@@ -122,6 +130,10 @@ SOURCE=.\K32ObjectBase.h
 # Begin Source File
 
 SOURCE=.\k32objtypes.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\K32Pipe.h
 # End Source File
 # Begin Source File
 
