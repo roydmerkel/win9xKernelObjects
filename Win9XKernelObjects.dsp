@@ -149,6 +149,10 @@ SOURCE=.\K32Serial.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\K32ToolHelpSnapshot.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\Module32.h
 # End Source File
 # Begin Source File
